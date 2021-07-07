@@ -23,19 +23,19 @@
         android:layout_height="58dp"
         android:layout_marginBottom="56dp"
         android:layout_marginStart="78dp"
-        android:text="Dosage"
+        android:text="@string/dosage"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/numberPicker"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/settingsNextBtn"
+        android:id="@+id/nextBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="35dp"
-        android:layout_marginEnd="19dp"
-        android:text="Add Reminder"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -44,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
-        android:text="Daily"
+        android:text="Cada día "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtOften" />
@@ -54,11 +54,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="55dp"
-        android:text="How often do you take this?"
+        android:text="¿Con qué frecuencia tomas esto?"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/numberPicker" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
