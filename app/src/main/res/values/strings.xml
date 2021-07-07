@@ -1,20 +1,135 @@
 <resources>
-    <string name="app_name">HARK</string>
+    <!-- Values for the strings in Spanish -->
+    <string name="app_name">La Capsula de la Vida</string>
 
     <string name="text_home">Home Fragment</string>
     <string name="text_notifications">Notifications Fragment</string>
     <string name="text_search">Search Fragment</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_reminder">Reminder</string>
-    <string name="menu_game">Game</string>
-    <string name="menu_profile">Profile</string>
-    <string name="loginBtn">Login</string>
-    <string name="password">password</string>
-    <string name="Login">Login</string>
-    <string name="Back">&lt; Back</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_reminder">Recordatorio</string>
+    <string name="menu_game">Logros</string>
+    <string name="menu_profile">Perfil</string>
+    <string name="loginBtn">Acceder</string>
+    <string name="password">Contraseña</string>
+    <string name="Login">Acceder</string>
+    <string name="Back">&lt; Atrás</string>
+
+    <string name="users_name">Nombre de usuario</string>
+    <string name="log_feeling">Registrar Emoción</string>
+    <string name="calendar">Calendario</string>
+    <string name="journal">Diario</string>
+    <string name="level_up">¡Necesitas 40 puntos más para pasar de nivel!</string>
+    <string name="motivational_phrase">¡Habrá una frase motivadora al final de esta pantalla!
+</string>
+    <string name="sign_up">¿Eres nuevo? ¡Crea tu cuenta aquí!</string>
+    <string name="new_reminder">Crear Nuevo Recordatorio
+</string>
+    <string name="type_med_name">Diario</string>
+    <string name="med_name">Escribir el Nombre del Medicamento</string>
+    <string name="dosage">Dosis</string>
+    <string name="next">Siguiente</string>
+    <string name="cancel">Cancelar</string>
+    <string name="reminder_set_to">Recordatorio a las</string>
+    <string name="take_num_pills">Tomar # pastillas</string>
+    <string name="confirm">Confirmar</string>
+
+    <!-- strings for the titles of pages -->
+    <string name="title_activity_create_reminder_form">crear nuevo recordatorio</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_calendar">Calendario de citas médicas</string>
+    <string name="title_journal">Diario</string>
+
+
+    <!-- English versions of the strings-->
+    <string name="english_menu_home">Home</string>
+    <string name="english_menu_reminder">Reminder</string>
+    <string name="english_menu_game">Acheivements</string>
+    <string name="english_menu_profile">Profile</string>
+    <string name="english_loginBtn">Login</string>
+    <string name="english_password">password</string>
+    <string name="english_Login">Login</string>
+    <string name="english_Back">&lt; Back</string>
+
+
+    <string name="english_hello_blank_fragment">Hello blank fragment</string>
+    <string name="english_title_activity_create_reminder_form">CreateReminderForm</string>
+    <string name="english_title_activity_settings">Settings</string>
+    <string name="english_title_calendar">Medical Appointments Calendar</string>
+    <string name="english_title_journal">Medication Journal</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_create_reminder_form">CreateReminderForm</string>
 </resources>

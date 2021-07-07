@@ -14,15 +14,24 @@ import android.support.v4.app.FragmentTransaction;
 import android.view.MenuItem;
 import android.view.View;
 
+/**
+ * Create HomeScreen, includes mission goals and CD4/Viral Load levels
+ */
 public class HomeScreen extends AppCompatActivity {
     ViewPager pager;
+
+    /**
+     * Create Bundle
+     * @param savedInstanceState Bundle
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
 
 
-        FloatingActionButton add = (FloatingActionButton) findViewById(R.id.floatingAdd);
+        final FloatingActionButton add = (FloatingActionButton) findViewById(R.id.floatingAdd);
+        add.hide();
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -41,16 +50,24 @@ public class HomeScreen extends AppCompatActivity {
                         Fragment selectedFragment = null;
                         switch (item.getItemId()) {
                             case R.id.action_home:
+                                add.hide();
                                 selectedFragment = HomeFragment.newInstance();
+
                                 break;
                             case R.id.action_reminder:
+                                add.show();
                                 selectedFragment = ReminderFragment.newInstance();
+
                                 break;
                             case R.id.action_game:
+                                add.hide();
                                 selectedFragment = GameFragment.newInstance();
+
                                 break;
                             case R.id.action_profile:
+                                add.hide();
                                 selectedFragment = ProfileFragment.newInstance();
+
                                 break;
                         }
                         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
